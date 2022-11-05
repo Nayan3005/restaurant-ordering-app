@@ -1,0 +1,35 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+       <!--GOOGLE FONTS-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="main">
+            <header>
+                <h1 class="header-heading">Nayan's Diner</h1>
+                <h3 class="header-about">The best burgers and pizzas in town.</h3>
+            </header>
+            <main>
+                <div id="food"></div>
+                <div id="cart"></div>
+            </main>
+            <div id="form">
+                <form id="modal" class="form modal">
+                    <h1>
+                        Enter card details
+                    </h1>
+                    <input class="pay-input" type="text" id="name" name="name" placeholder="Enter your name" required>
+                    <input class="pay-input" type="number" id="cardNumber" name="cardNumber" placeholder="Enter your cardNumber" required>
+                    <input class="pay-input" type="number" id="cvv" name="cvv" placeholder="Enter your CVV" required
+                    > 
+                    <button type="submit" id="pay-btn" class="pay-btn">Pay</button>
+                </form>
+            </div>
+        </div>
+	<script type="module" src="index.js"></script>
+    </body>
+</html>
+
